@@ -1,2 +1,2 @@
 # Ghost-Buster
-Validation Professionals
+Validating Professionals

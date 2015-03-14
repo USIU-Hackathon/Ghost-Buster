@@ -31,6 +31,10 @@ def get_data(url):
 
     return doctors_list
 
-url = 'http://medicalboard.co.ke/online-services/retention/'
+url = 'http://medicalboard.co.ke/online-services/retention/?currpage='
+full_list = []
+for i in range(1, 170):
+    print(len(full_list))
+    full_list += get_data(url+str(i))
+    print(full_list)
 
-print get_data(url)

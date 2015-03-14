@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ec64831-ab5f-4d93-a87e-a8d846519ff1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doctors/templates/doctors/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scrap/Doctors/doctors.py" afterPath="$PROJECT_DIR$/src/scrap/Doctors/doctors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GhostBuster/settings.py" afterPath="$PROJECT_DIR$/src/GhostBuster/settings.py" />
+    <list default="true" id="9ec64831-ab5f-4d93-a87e-a8d846519ff1" name="Default" comment="last min push">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GhostBuster/urls.py" afterPath="$PROJECT_DIR$/src/GhostBuster/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -95,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/GhostBuster/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="384">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -106,8 +103,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/doctors/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63261944" vertical-offset="0" max-vertical-offset="607">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8951049" vertical-offset="0" max-vertical-offset="512">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -131,8 +128,8 @@
         <option value="$PROJECT_DIR$/src/scrap/Doctors/doctors.py" />
         <option value="$PROJECT_DIR$/src/GhostBuster/settings.py" />
         <option value="$PROJECT_DIR$/src/doctors/templates/doctors/index.html" />
-        <option value="$PROJECT_DIR$/src/doctors/views.py" />
         <option value="$PROJECT_DIR$/src/GhostBuster/urls.py" />
+        <option value="$PROJECT_DIR$/src/doctors/views.py" />
       </list>
     </option>
   </component>
@@ -598,15 +595,21 @@
       <option name="project" value="LOCAL" />
       <updated>1426341956321</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="working doctors">
+      <created>1426346176507</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1426346176507</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.030627871" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30321592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -649,7 +652,8 @@
     <MESSAGE value="doctors models" />
     <MESSAGE value="api for doctors model" />
     <MESSAGE value="working post data scrap to db" />
-    <option name="LAST_COMMIT_MESSAGE" value="working post data scrap to db" />
+    <MESSAGE value="working doctors" />
+    <option name="LAST_COMMIT_MESSAGE" value="working doctors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -782,7 +786,7 @@
     <entry file="file://$PROJECT_DIR$/src/GhostBuster/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="384">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
@@ -791,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/doctors/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63261944" vertical-offset="0" max-vertical-offset="607">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8951049" vertical-offset="0" max-vertical-offset="512">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

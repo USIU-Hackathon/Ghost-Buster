@@ -14,5 +14,5 @@ urlpatterns = patterns('',
     url(r'^api/', include(router.urls)),
     url(r'^$', 'doctors.views.home', name='home'),
     url(r'^(?P<speciality>[\w\-]+)/$', 'doctors.views.get_by_speciality', name='speciality'),
-    url(r'^(?P<name>\w+)/$', 'doctors.views.get_by_name', name='name'),
+    url(r'^(?P<name>[\w\-]+)/$', 'doctors.views.get_by_name', name='name'),
     )

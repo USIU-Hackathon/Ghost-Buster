@@ -1,5 +1,8 @@
 from urllib2 import urlopen
 from bs4 import BeautifulSoup
+import requests
+import json
+import ast
 
 
 def get_data(url):
@@ -27,14 +30,20 @@ def get_data(url):
             qualifications = row_data[4].get_text().strip()
             speciality = row_data[5].get_text().strip()
             sub_speciality = row_data[6].get_text().strip().strip('\n')
+            data = '''{"name": "%s","reg_date": "%s","reg_number": "%s","address": "%s","qualifications": "%s","speciality": "%s", "sub_speciality": "%s"}''' % (
+                name, reg_date, reg_no, address, qualifications, speciality, sub_speciality)
             doctors_list.append((name, reg_date, reg_no, address, qualifications, speciality, sub_speciality))
-
+            data = ast.literal_eval(data)
+            headers = {'content-type': 'application/json'}
+            url = "http://127.0.0.1:8000/api/doctor/"
+            requests.post(url, data=json.dumps(data), headers=headers)
     return doctors_list
+
 
 url = 'http://medicalboard.co.ke/online-services/retention/?currpage='
 full_list = []
 for i in range(1, 170):
     print(len(full_list))
-    full_list += get_data(url+str(i))
+    full_list += get_data(url + str(i))
     print(full_list)
 

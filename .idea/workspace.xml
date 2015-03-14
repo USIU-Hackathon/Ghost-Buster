@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ec64831-ab5f-4d93-a87e-a8d846519ff1" name="Default" comment="last min push">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GhostBuster/urls.py" afterPath="$PROJECT_DIR$/src/GhostBuster/urls.py" />
+    <list default="true" id="9ec64831-ab5f-4d93-a87e-a8d846519ff1" name="Default" comment="last min push 1">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ghost-Buster.iws" />
@@ -46,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/doctors/templates/doctors/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-33.92" vertical-offset="0" max-vertical-offset="2032">
-              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+            <state vertical-scroll-proportion="1.2276214" vertical-offset="0" max-vertical-offset="2032">
+              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -100,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/doctors/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8951049" vertical-offset="0" max-vertical-offset="512">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="512">
               <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -127,9 +126,9 @@
         <option value="$PROJECT_DIR$/src/doctors/serializers.py" />
         <option value="$PROJECT_DIR$/src/scrap/Doctors/doctors.py" />
         <option value="$PROJECT_DIR$/src/GhostBuster/settings.py" />
-        <option value="$PROJECT_DIR$/src/doctors/templates/doctors/index.html" />
         <option value="$PROJECT_DIR$/src/GhostBuster/urls.py" />
         <option value="$PROJECT_DIR$/src/doctors/views.py" />
+        <option value="$PROJECT_DIR$/src/doctors/templates/doctors/index.html" />
       </list>
     </option>
   </component>
@@ -601,7 +600,19 @@
       <option name="project" value="LOCAL" />
       <updated>1426346176507</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="last min push">
+      <created>1426347121744</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1426347121744</updated>
+    </task>
+    <task id="LOCAL-00008" summary="last min push 1">
+      <created>1426348348805</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1426348348805</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -653,7 +664,9 @@
     <MESSAGE value="api for doctors model" />
     <MESSAGE value="working post data scrap to db" />
     <MESSAGE value="working doctors" />
-    <option name="LAST_COMMIT_MESSAGE" value="working doctors" />
+    <MESSAGE value="last min push" />
+    <MESSAGE value="last min push 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="last min push 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -757,14 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/doctors/templates/doctors/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-33.92" vertical-offset="0" max-vertical-offset="2032">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/doctors/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
@@ -795,11 +800,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/doctors/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8951049" vertical-offset="0" max-vertical-offset="512">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="512">
           <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doctors/templates/doctors/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2276214" vertical-offset="0" max-vertical-offset="2032">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

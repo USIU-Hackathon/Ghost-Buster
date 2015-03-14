@@ -42,8 +42,9 @@ def get_data(url):
 
 url = 'http://medicalboard.co.ke/online-services/retention/?currpage='
 full_list = []
-for i in range(1, 170):
-    print(len(full_list))
-    full_list += get_data(url + str(i))
-    print(full_list)
+for i in range(170, 1, -1):
+    try:
+        full_list += get_data(url + str(i))
+    except:
+        pass
 
